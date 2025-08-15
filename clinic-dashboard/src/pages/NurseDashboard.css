@@ -1,0 +1,21 @@
+.nurse-dashboard {
+    width: 100%;
+}
+
+.nurse-main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 1200px) {
+    .nurse-main-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.nurse-left-column, .nurse-right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

@@ -1,0 +1,57 @@
+.patient-queue-container {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+}
+
+.patient-queue-title {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.patient-queue-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.patient-queue-table th,
+.patient-queue-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+    white-space: nowrap;
+}
+
+.patient-queue-table th {
+    background-color: var(--background-primary);
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.patient-queue-table .clickable-row:hover {
+    background-color: var(--background-primary);
+    cursor: pointer;
+}
+
+.status-badge.status-waiting {
+    background-color: #e6f7ff;
+    color: #1890ff;
+    border: 1px solid #91d5ff;
+}
+
+.status-badge.status-in-consultation {
+    background-color: #f6ffed;
+    color: #52c41a;
+    border: 1px solid #b7eb8f;
+}
+
+.status-badge.status-completed {
+    background-color: #fafafa;
+    color: #8c8c8c;
+    border: 1px solid #d9d9d9;
+}

@@ -1,0 +1,62 @@
+.claims-table-container {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    border: 1px solid var(--border-color);
+}
+
+.claims-table-title {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.claims-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.claims-table th,
+.claims-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.claims-table th {
+    background-color: var(--background-primary);
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.claims-table tbody tr:hover {
+    background-color: var(--background-primary);
+}
+
+.status-badge {
+    padding: 0.25em 0.6em;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.status-badge.status-approved {
+    background-color: #f6ffed;
+    color: #52c41a;
+    border: 1px solid #b7eb8f;
+}
+
+.status-badge.status-pending {
+    background-color: #fffbe6;
+    color: #faad14;
+    border: 1px solid #ffe58f;
+}
+
+.status-badge.status-rejected {
+    background-color: #fff1f0;
+    color: #f5222d;
+    border: 1px solid #ffccc7;
+}

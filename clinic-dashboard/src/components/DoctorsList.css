@@ -1,0 +1,70 @@
+.doctors-list-container {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    border: 1px solid var(--border-color);
+}
+
+.doctors-list-title {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.doctors-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.doctor-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.doctor-item:last-child {
+    border-bottom: none;
+}
+
+.doctor-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.doctor-name {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.doctor-specialty {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.status-indicator {
+    padding: 0.25em 0.6em;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.status-indicator.status-available {
+    background-color: #f6ffed;
+    color: #52c41a;
+}
+
+.status-indicator.status-busy {
+    background-color: #fff1f0;
+    color: #f5222d;
+}
+
+.status-indicator.status-on-break {
+    background-color: #fffbe6;
+    color: #faad14;
+}
