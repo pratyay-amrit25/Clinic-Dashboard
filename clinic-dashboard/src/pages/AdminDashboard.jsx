@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDollarSign, FaUserPlus, FaUsers, FaClock } from 'react-icons/fa';
+import { FaDollarSign, FaUserPlus, FaUsers, FaClock, FaChartLine } from 'react-icons/fa';
 import StatCard from '../components/StatCard';
 import TrendChart from '../components/TrendChart';
 import UtilizationChart from '../components/UtilizationChart';
@@ -7,8 +7,6 @@ import ClaimsTable from '../components/ClaimsTable';
 import Bottlenecks from '../components/Bottlenecks';
 import { adminData } from '../data/mockData';
 import './AdminDashboard.css';
-
-import { FaDollarSign, FaUserPlus, FaUsers, FaClock, FaChartLine } from 'react-icons/fa';
 const AdminDashboard = () => {
   const { revenue, patients, staff, insuranceClaims, operational, sales } = adminData;
 
