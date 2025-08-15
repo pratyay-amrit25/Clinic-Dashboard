@@ -1,12 +1,62 @@
-# React + Vite
+# Clinic Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a comprehensive, role-based clinic management dashboard built from scratch using React, Vite, and modern CSS. The application provides tailored views for different clinic staff members, ensuring they have the right information at the right time.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Role-Based Dashboards:** Four distinct dashboards for Admins, Receptionists, Doctors, and Nurses.
+-   **Interactive UI:** Rich, interactive components including charts, tables, modals, and search functionality.
+-   **Dark Mode:** A toggleable dark mode for user comfort.
+-   **Responsive Design:** The layout is designed to work across various devices.
 
-## Expanding the ESLint configuration
+### Admin Dashboard
+-   High-level overview of clinic performance.
+-   Metrics for revenue, sales, patient acquisition, and staff utilization.
+-   Charts for visualizing trends.
+-   Identification of operational bottlenecks.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Receptionist Dashboard
+-   Tools for managing daily patient flow.
+-   Interactive appointment schedule with a details viewer.
+-   Waitlist and emergency management.
+-   On-the-spot appointment booking form.
+
+### Doctor Dashboard
+-   A physician-centric view for managing patient consultations.
+-   A daily patient queue with reasons for visit.
+-   One-click access to detailed patient medical histories.
+-   An alert system for emergencies and new lab reports.
+
+### Nurse Dashboard
+-   A workflow-oriented interface for nurses.
+-   Tools for patient triage and vitals tracking.
+-   A schedule for medications due.
+-   An overview of room and bed availability.
+
+## Tech Stack
+
+-   **Framework:** React 19
+-   **Build Tool:** Vite
+-   **Routing:** React Router
+-   **Charting:** Recharts
+-   **Icons:** React Icons
+-   **Styling:** Plain CSS with CSS Variables for theming.
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1.  **Clone the repository.**
+2.  **Navigate to the `clinic-dashboard` directory:**
+    ```sh
+    cd clinic-dashboard
+    ```
+3.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+4.  **Start the development server:**
+    ```sh
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173` (or another port if 5173 is busy).
