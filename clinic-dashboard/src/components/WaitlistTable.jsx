@@ -17,7 +17,7 @@ const WaitlistTable = ({ title, waitlist }) => {
         <tbody>
           {waitlist.map((item) => (
             <tr key={item.id}>
-              <td>{item.patient}</td>
+              <td>{item.patient.name}</td>
               <td>{item.reason}</td>
               <td>{item.addedAt}</td>
               <td>
